@@ -1,0 +1,15 @@
+Colonne,Résultat
+DATAFLOW,"Valeur la plus fréquente: ESTAT:ISOC_EB_ICS(1.0)
+Valeurs distinctes: ESTAT:ISOC_EB_ICS(1.0)"
+LAST UPDATE,Valeurs distinctes: 08/12/23 11:00:00
+freq,"Valeur la plus fréquente: A
+Valeurs distinctes: A"
+size_emp,"Valeur la plus fréquente: 10-249
+Valeurs distinctes: 0-9, 0_1, 1-4, 1-9, 10-249, 10-49, 2-9, 5-9, 50-249, GE10, GE250"
+nace_r2,Valeur la plus fréquente: C10-S951_X_K
+indic_is,
+unit,
+geo,Valeur la plus fréquente: SK
+TIME_PERIOD,
+OBS_VALUE,
+OBS_FLAG,
