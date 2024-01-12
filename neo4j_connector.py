@@ -50,6 +50,11 @@ class Neo4jConnector:
                         RETURN source1, table1, uniqueColonne, a1, source2, table2, a2
                     """
                     )
+        self.integrate = """
+            WITH s1, t1, c1, s2, t2, c2, type_integration
+            
+
+        """
 
     def close(self):
          if self._driver is not None:
