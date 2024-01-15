@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QTabWidget, QWidget, QVBoxLayout, QPushButton, QFile
 import pandas as pd
 import os
 import numpy as np
+import openpyxl
 
 from column_widget import ColumnWidget
 
