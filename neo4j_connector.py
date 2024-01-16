@@ -4,6 +4,8 @@ from neo4j import GraphDatabase
 from datetime import datetime
 import pandas as pd
 
+# Chemin vers votre fichier CSV
+csv_file_path = "data/correspondace.csv"
 
 class Neo4jConnector:
 
@@ -77,8 +79,6 @@ class Neo4jConnector:
     
     
     def integrate_by_correspondance(self):
-        # Chemin vers votre fichier CSV
-        csv_file_path = "C:\\Users\\alhaj\\Downloads\\Analyse_Donnees_Logistiques-main\\Analyse_Donnees_Logistiques-main\\correspondace.csv"
         # Lecture du fichier CSV avec pandas
         df_correspond = pd.read_csv(csv_file_path)
 
